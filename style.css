@@ -1,4 +1,4 @@
-@import url("./astronomus/af.css");
+@import url("./fonts/fonts.css");
 * {
   padding: 0;
   margin: 0;
@@ -11,9 +11,12 @@ html {
   overflow-x: hidden;
   display: flex;
   align-items: center;
-  font-family: "Sub Heading";
+  font-family: "lemon milk";
   justify-content: space-evenly;
   background: #0b2447;
+}
+#head{
+  font-family: "ethnocent";
 }
 .singup {
   color: #e5e5e5;
@@ -47,7 +50,8 @@ html {
 
 .enter {
   font-family: "Sub Heading";
-  border-radius: 5px;
+  border-radius: 25px;
+  min-width: max(25%,150px);
   border: 2px solid #e5e5e5;
   cursor: pointer;
   color: #e5e5e5;
