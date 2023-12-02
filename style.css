@@ -13,7 +13,8 @@ html {
   align-items: center;
   font-family: "lemon milk";
   justify-content: space-evenly;
-  background: #0b2447;
+  background:url('./images/3d-modern-background-with-cyber-particles.jpg') no-repeat fixed ;
+  background-size: 100vw 100vh ;
 }
 #head{
   font-family: "ethnocent";
@@ -35,7 +36,7 @@ html {
   flex-direction: column;
   gap: 35px;
   border-radius: 15px;
-  background: #00000056;
+  background: transparent;
   border-radius: 8px;
   padding: 50px;
   margin-bottom: 3em;
@@ -70,7 +71,7 @@ html {
   --border: rgba(66, 66, 66, 0.733);
   --bgLabel: rgba(120,120,120,1);
   --bgInput: rgba(255,255,255,1);
-  --color-light: rgb(98, 0, 255);
+  --color-light: black;
   --color-light-a: rgb(133, 123, 150);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -97,9 +98,9 @@ html {
 
 .label:focus .input,
 .label:focus-within .input {
-  background-color: var(--bgInput);
+  background-color: rgba(0,0,0,0.7);
   padding: 1em;
-  color: var(--color-light);
+  color: white;
   border: 2px solid var(--color-light);
   outline: 2px solid var(--color-light);
   outline-offset: -2px;
